@@ -7,7 +7,7 @@ class CreateBooks < ActiveRecord::Migration
       t.string :summary
       t.string :pages
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end
